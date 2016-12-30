@@ -1,20 +1,20 @@
 #facebookIcon {
   color: rgb(59, 89, 152);
 }
-#githubIcon{
+#githubIcon {
   color: rgb(102,43,129);
 }
-#freecodecampIcon{
+#freecodecampIcon {
   color: #006600;
 }
-#codeacademyIcon{
+#codeacademyIcon {
   color: #204056;
 }
-#contact{
+#contact {
   color: black;
   padding-bottom: 5%;
 }
-#footerbutton{
+#footerbutton {
   padding-bottom: 7%;
 }
 
@@ -24,8 +24,8 @@
   background-color: black;
 }
 
-body{
-  background-color:#ccffff;
+body {
+  background-color: #ccffff;
   font-family: Lobster;
   color: #b8b894;
 }
@@ -34,25 +34,26 @@ body{
   border-color: blue;
   font-size: 1.4em;
 }
-h1{
-  padding:0px;
+h1 {
+  padding: 0px;
   margin-top: 0px;
   font-size: 6.0em;
 }
-.pageFour h2{
-  padding-bottom:5%;
+.pageFour h2 {
+  padding-bottom: 5%;
 }
-hr{ width:50%;
-    height:1px;
+hr {
+    width: 50%;
+    height: 1px;
   }
-p{
-  font-size:1.7em;
+p {
+  font-size: 1.7em;
   color:  #ffd11a;
 }
-.first{
+.first {
   padding: 3.0em;
 }
-.foto{
+.foto {
   height: 400px;
   display: block;
   margin-left: auto;
@@ -62,50 +63,48 @@ p{
 .pagetext {
   padding: 3%;
 }
-.paddingBTN{
+.paddingBTN {
   padding-top: 25px;
-  width:200px;
-  margin-bottom:25px;
+  width: 200px;
+  margin-bottom: 25px;
 }
-.footer p{
+.footer p {
   font-size: 20px;
   color: white;
 }
-.footer{
+.footer {
   background-color:  #8585ad;
 }
-.pageOne{
+.pageOne {
   background-image:  url("http://25.media.tumblr.com/tumblr_m9vk26hgXz1qhaynao1_1280.jpg");
   background-size: cover;
   height: 800px;
 }
-.photoPage{
+.photoPage {
   height: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.photo1{
+.photo1 {
   padding: 5%;
   height: 400px;
   width: 500px;
 }
-.pageTwo{
+.pageTwo {
   background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTyEyJ6KScJgRljzuucMQDXhEvFN9Wj1lTINeIJQxvKWH0Yg9TZww");
   background-size: cover;
   height: 800px;
   padding-top: 5%;
 }
-.pageThree{
+.pageThree {
   background-image:  url("https://www.hdwallpapers.net/previews/cosmic-cube-969.jpg");
   background-size: cover;
   padding-top: 5%;
   padding-bottom: 5%;
 }
-.pageFour{
+.pageFour {
   background-image:  url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSShHhfIVKdUQZvHT6SOUr0qBIIQ9nF1V7zvLXdty4XKuKM5tQ8BQ");
   background-size: cover;
   padding-top: 5%;
-
-
 }
