@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   flex: auto;
 }
-/* .header {
+.header {
   width: 100%;
   max-width: 1280px;
   min-width: 480px;
@@ -27,4 +27,11 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-} */
+}
+.logo {
+  font-family:  'Norican', cursive;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
