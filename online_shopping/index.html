@@ -12,17 +12,22 @@
     <header class="header">
       <div class="header-section1" style="height: 70px;">
         <div class="header-item logo" style="background: blue;">ModaX</div>
-        <nav class="header-item nav" style="background: green;">
-          <a href="#" class="nav-item">HOME</a>
-          <a href="#" class="nav-item">SHOP</a>
-          <a href="#" class="nav-item">PORTFOLIO</a>
-          <a href="#" class="nav-item">PAGE</a>
-          <a href="#" class="nav-item">BLOG</a>
-          <a href="#" class="nav-item">ELEMENTS</a>
+        <!-- navigation -->
+        <nav>
+          <ul class="header-item nav" style="background: green;">
+            <li><a href="#" title="link">HOME</a></li>
+            <li><a href="#" title="link">SHOP</a></li>
+            <li><a href="#" title="link">PORTFOLIO</a></li>
+            <li><a href="#" title="link">PAGE</a></li>
+            <li><a href="#" title="link">BLOG</a></li>
+            <li><a href="#" title="link">ELEMENTS</a></li>
+          </ul>
         </nav>
+        <!-- basket -->
         <div class="header-item cart" style="background: brown;">
           <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
         </div>
+        <!-- Search -->
         <div class="header-item search" style="background: pink;">
           <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
         </div>
@@ -32,42 +37,75 @@
         <p style="background: violet;">Lorem ipsum dolor sit amet, consectetur am.</p>
       </div>
     </header>
-    <main class="container main">
-      <div class="row banner-1">
-        <div class="col-sm-8 banner-1" style="background: blue; height: 200px;"></div>
-        <div class="col-sm-4 banner-2" style="background: yellow; height: 200px;"></div>
-      </div>
-      <div class="row main-content" style="background: green;">
-        <div class="col-lg-2 aside" style="background: blue; height: 200px;"></div>
-        <div class="col-lg-10 content" style="background: silver;">
-          <div class="row">
-            <div class="row filter">
-              <div class="col-sm-4"style="background: brown; height: 50px;"></div>
-              <div class="col-sm-4"style="background: pink; height: 50px;"></div>
-              <div class="col-sm-1"style="background: cyan; height: 50px;"></div>
-              <div class="col-sm-1"style="background: black; height: 50px;"></div>
-              <div class="col-sm-2"style="background: yellow; height: 50px;"></div>
-            </div>
-            <br /><br />
-            <div class="row catalog" style="background: red;">
-              <div class="col-sm-4" style="background: brown; height: 150px;width: 150px;"></div>
-              <div class="col-sm-4" style="background: grey; height: 150px;width: 150px;"></div>
-              <div class="col-sm-4" style="background: green; height: 150px;width: 150px;"></div>
-              <div class="col-sm-4" style="background: pink; height: 150px;width: 150px;"></div>
-              <div class="col-sm-4" style="background: purple; height: 150px;width: 150px;"></div>
-              <div class="col-sm-4" style="background: silver; height: 150px;width: 150px;"></div>
-              <div class="col-sm-4" style="background: white; height: 150px;width: 150px;"></div>
-              <div class="col-sm-4" style="background: black; height: 150px;width: 150px;"></div>
-              <div class="col-sm-4" style="background: orange; height: 150px;width: 150px;"></div>
-            </div>
-          </div>
+    <!--Main part-->
+    <main class="main">
+      <!-- First banner -->
+      <div class="container banner-1">
+        <div class="row">
+          <div class="col-sm-8 banner-1" style="background: blue; height: 200px;"></div>
+          <div class="col-sm-4 banner-2" style="background: yellow; height: 200px;"></div>
         </div>
       </div>
-      <div class="row paggination" style="background: grey; height: 200px;"></div>
-      <div class="row banner-2" style="background: blue; height: 200px;"></div>
-      <div class="row sponsors" style="background: orange; height: 200px;"></div>
-
+      <!--container with sidebar filter, filters and catalog-->
+      <div class="container">
+        <!--section with sidebar filter -->
+        <section class="sidebar">
+          <div class="row">
+            <div class="col">
+              Filter
+            </div>
+            <div class="col">
+              <i class="fa fa-refresh" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+          </div>
+          <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+          </div>
+        </section>
+        <!--section with filters -->
+        <section class="filters">
+          <div class="row">
+            <div class="col-sm-4"style="background: brown; height: 50px;"></div>
+            <div class="col-sm-4"style="background: pink; height: 50px;"></div>
+            <div class="col-sm-1"style="background: cyan; height: 50px;"></div>
+            <div class="col-sm-1"style="background: black; height: 50px;"></div>
+            <div class="col-sm-2"style="background: yellow; height: 50px;"></div>
+          </div>
+        </section>
+        <!--section with catalog-->
+        <section class="catalog">
+          <div class="row">
+            <div class="col-sm-4" style="background: brown; height: 150px;width: 150px;"></div>
+            <div class="col-sm-4" style="background: grey; height: 150px;width: 150px;"></div>
+            <div class="col-sm-4" style="background: green; height: 150px;width: 150px;"></div>
+            <div class="col-sm-4" style="background: pink; height: 150px;width: 150px;"></div>
+            <div class="col-sm-4" style="background: purple; height: 150px;width: 150px;"></div>
+            <div class="col-sm-4" style="background: silver; height: 150px;width: 150px;"></div>
+            <div class="col-sm-4" style="background: white; height: 150px;width: 150px;"></div>
+            <div class="col-sm-4" style="background: black; height: 150px;width: 150px;"></div>
+            <div class="col-sm-4" style="background: orange; height: 150px;width: 150px;"></div>
+          </div>
+        </section>
+        <!--section with paggination-->
+        <section class="paggination">
+          <div class="row paggination" style="background: grey; height: 200px;"></div>
+        </section>
+      </div>
     </main>
+    <!--section for second banner  -->
+    <section class="banner-2">
+      <div class="row banner-2" style="background: blue; height: 200px;"></div>
+    </section>
+    <!--section for sponsors-->
+    <section class="sponsors">
+      <div class="row sponsors" style="background: orange; height: 200px;"></div>
+    </section>
+    <!-- Footer -->
     <footer class="footer" style="background: red; height: 200px;">
       Footer
     </footer>

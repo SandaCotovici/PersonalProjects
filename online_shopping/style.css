@@ -28,6 +28,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+nav ul {
+  display: flex;
+}
 .logo {
   font-family:  'Norican', cursive;
   color: #fff;
