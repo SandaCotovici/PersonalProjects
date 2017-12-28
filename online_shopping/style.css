@@ -58,3 +58,30 @@ nav li {
   font-size: 24px;
   letter-spacing: 1px;
 }
+.header .header-section2 {
+  color: #fff;
+  background: #0021c4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding-top: 2em;
+}
+.breadcrumb {
+  background-color: inherit;
+  padding-bottom: 5.5em;
+}
+.breadcrumb li a{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+ul.breadcrumb > li:nth-child(n+2)::before {
+    content: "\f0da"; /* chevron-right */
+    font-family: Fontawesome;
+}
