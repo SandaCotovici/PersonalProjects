@@ -49,7 +49,7 @@ nav a:hover, nav a:focus {
 }
 nav li {
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-size: 1em;
 }
 .logo {
   font-family:  'Norican', cursive;
@@ -196,6 +196,7 @@ ul.breadcrumb > li:nth-child(n+2)::before {
   height: 20rem;
 }
 .footer {
+  color: #fff;
   padding-top: 2rem;
   background: #363637;
   display: flex;
@@ -207,16 +208,77 @@ ul.breadcrumb > li:nth-child(n+2)::before {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content:center;
-  align-items: center;
+  padding-top: 1em;
+  padding-left: 7em;
 }
 .footer-item {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
   align-content: center;
+  padding: 1.3rem;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.social .active {
+  color: #fff;
+}
+.social i {
+  color: #999999;
+  font-size: 1.1em;
+  padding: 1em;
+}
+.social i:hover {
+  color: white;
+}
+.subscription {
+  font-family: 'Montserrat', sans-serif;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.subs-form {
+  padding-top: 2em;
+}
+input[type=text], input[type=submit] {
+  padding: 1.3rem;
+  font-size: 0.85em;
+  font-weight: bolder;
+  box-sizing: border-box;
+}
+input[type=text] {
+  width: 100%;
+}
+input[type=submit] {
+  color: #000;
+  background: #fff;
+  width: 80%;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 #contact-head {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
-  color: #fff;
+  padding-bottom: 2em;
+}
+.cards {
+  flex: 1;
+}
+.cards ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.cards ul li {
+  padding: 0.5em;
+  font-size: 1.5em;
 }
