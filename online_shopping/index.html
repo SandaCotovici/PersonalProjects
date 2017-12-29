@@ -70,36 +70,112 @@
       <!--container with sidebar filter, filters and catalog-->
       <div class="container">
         <div class="row main-content">
-          <div class="col first-part" style="background-color:black">
+          <div class="col first-part">
             <!--section with sidebar filter -->
             <div class="sidebar">
-              <div class="row" style="background-color:red; margin: 0;">
-                <div class="col">
+              <div class="row side-filter">
+                <div class="col-sm-9 filter-item">
                   Filter
                 </div>
-                <div class="col">
+                <div class="col-sm-3 filter-item">
                   <i class="fa fa-refresh" aria-hidden="true"></i>
                 </div>
               </div>
-              <div class="row"style="background-color:yellow">
-                <div class="col"></div>
-                <div class="col"></div>
+              <div class="row filter-category">
+                <div class="filter-categ-header">
+                  <div class="col-sm-9 filter-item">
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    Categories
+                  </div>
+                  <div class="col-sm-3 filter-item">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <br /><br />
+                <div class="filter-categ-content">
+                  <div class="col-sm-9 filter-item">
+                    <ul>
+                      <li>Lifestyle</li>
+                      <li>Running</li>
+                      <li>Training & Gym</li>
+                      <li>Clothing</li>
+                      <li>Scarves</li>
+                      <li>Accesories</li>
+                      <li>Shoes</li>
+                      <li>Fragrance</li>
+                      <li>Football</li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-3 filter-item">
+                    <ul style="padding:0">
+                      <li>01</li>
+                      <li>15</li>
+                      <li>20</li>
+                      <li>25</li>
+                      <li>30</li>
+                      <li>35</li>
+                      <li>45</li>
+                      <li>50</li>
+                      <li>32</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="row"style="background-color:green">
-                <div class="col"></div>
-                <div class="col"></div>
+              <div class="row filter-size">
+                <div class="filter-size-header">
+                  <div class="col-sm-9 filter-item">
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    Size
+                  </div>
+                  <div class="col-sm-3 filter-item">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <br /><br />
+                <div class="filter-size-content">
+                  <div class="col-sm-3 fzc-item">S</div>
+                  <div class="col-sm-3 fzc-item">M</div>
+                  <div class="col-sm-3 fzc-item">L</div>
+                  <div class="col-sm-3 fzc-item">XL</div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col second-part"style="background: blue;">
+          <div class="col second-part">
             <!--section with filters -->
-            <section class="filters" style="background: green; height: 50px">
-              <div class="row">
-                <div class="col-sm-4"style="background: height: 50px;"></div>
-                <div class="col-sm-4"style="background height: 50px;"></div>
-                <div class="col-sm-1"style="background height: 50px;"></div>
-                <div class="col-sm-1"style="background: height: 50px;"></div>
-                <div class="col-sm-2"style="background:  height: 50px;"></div>
+            <section class="filters">
+              <div class="row filter-horisontal">
+                <div class="col-sm-4 filter-item">
+                  <div class="row sort-price">
+                    <div class="col-sm-10">
+                      SORT BY: Price $- $$
+                    </div>
+                    <div class="col-sm-1">
+                      <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4 filter-item">
+                  <div class="row view-limit">
+                    <div class="col-sm-4">
+                      SHOW:
+                    </div>
+                    <select class="col-sm-8 select-limit">
+                      <option value="16">9</option>
+                      <option value="saab">12</option>
+                      <option value="opel">15</option>
+                    </select>
+                  </div>
+                </div>
+                <div id="grid-view" class="col-sm-1 filter-item">
+                  <i class="fa fa-th" aria-hidden="true"></i>
+                </div>
+                <div id="list-view"  class="col-sm-1 filter-item">
+                  <i class="fa fa-list" aria-hidden="true"></i>
+                </div>
+                <div class="col-sm-2">
+                  
+                </div>
               </div>
             </section>
             <!--section with catalog-->
