@@ -230,6 +230,7 @@ ul.breadcrumb > li:nth-child(n+2)::before {
 .catalog {
   display: flex;
   flex-wrap: wrap;
+  align-items: stretch;
 }
 .catalog .prod-image {
   display: flex;
@@ -241,9 +242,14 @@ ul.breadcrumb > li:nth-child(n+2)::before {
 }
 .i-product {
   display: flex;
+  flex: 1;
   flex-direction: column;
   padding: 2.5rem 3rem;
   border: 2px solid #ddd;
+  align-items: stretch;
+  align-content: stretch;
+  justify-content: space-around;
+  /* margin: 1.5rem; */
 }
 .prod-1part, .prod-2part, .prod-3part, .prod-price {
   display: flex;
@@ -270,7 +276,9 @@ ul.breadcrumb > li:nth-child(n+2)::before {
   background: #3853d8;
   font-weight: bolder;
 }
-
+.prod-badge .no-badge-button, .prod-price .no-old-price {
+  display: none;
+}
 .prod-title {
   display: flex;
   flex-wrap: nowrap;
