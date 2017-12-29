@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Poppins|Norican|Montserrat');
 
+
 html {
   background: #fff;
   min-height: 100%;
@@ -13,6 +14,7 @@ body {
   flex-direction: column;
   flex: auto;
 }
+
 /* Header */
 .header {
   width: 100%;
@@ -241,6 +243,7 @@ ul.breadcrumb > li:nth-child(n+2)::before {
   flex: 1;
 }
 .i-product {
+  box-sizing: border-box;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -249,7 +252,7 @@ ul.breadcrumb > li:nth-child(n+2)::before {
   align-items: stretch;
   align-content: stretch;
   justify-content: space-around;
-  /* margin: 1.5rem; */
+  /* margin: 1rem; */
 }
 .prod-1part, .prod-2part, .prod-3part, .prod-price {
   display: flex;
@@ -489,4 +492,17 @@ input[type=submit] {
 .cards ul li {
   padding: 0.5em;
   font-size: 1.5em;
+}
+
+/* for Mobile */
+@media only screen and (max-width: 480px) {
+
+}
+/* for tablet */
+@media only screen and (min-width:481px and max-width: 960px) {
+
+}
+/* for Desktop */
+@media only screen and (max-width: 1280px) {
+
 }
