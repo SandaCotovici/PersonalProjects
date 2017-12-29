@@ -219,8 +219,12 @@ ul.breadcrumb > li:nth-child(n+2)::before {
   display: flex;
 }
 #grid-view, #list-view {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+}
+#filter-button {
+  width: 100%;
+  background-color: #3853d8;
+  color: #fff;
 }
 /* Catalog */
 
